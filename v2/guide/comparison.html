@@ -89,7 +89,7 @@
   <a class="nav-link">多语言</a><span class="arrow"></span>
   <ul class="nav-dropdown">
     <li><a href="https://cn.vuejs.org/" class="nav-link" target="_blank">中文</a></li>
-    <li><a href="https://vuejs.org/" class="nav-link" target="_blank">英文</a></li>
+    <li><a href="https://vuejs.org/" class="nav-link" target="_blank">English</a></li>
     <li><a href="https://jp.vuejs.org/" class="nav-link" target="_blank">日本語</a></li>
     <li><a href="https://ru.vuejs.org/" class="nav-link" target="_blank">Русский</a></li>
     <li><a href="https://kr.vuejs.org/" class="nav-link" target="_blank">한국어</a></li>
@@ -156,7 +156,7 @@
   <a class="nav-link">多语言</a><span class="arrow"></span>
   <ul class="nav-dropdown">
     <li><a href="https://cn.vuejs.org/" class="nav-link" target="_blank">中文</a></li>
-    <li><a href="https://vuejs.org/" class="nav-link" target="_blank">英文</a></li>
+    <li><a href="https://vuejs.org/" class="nav-link" target="_blank">English</a></li>
     <li><a href="https://jp.vuejs.org/" class="nav-link" target="_blank">日本語</a></li>
     <li><a href="https://ru.vuejs.org/" class="nav-link" target="_blank">Русский</a></li>
     <li><a href="https://kr.vuejs.org/" class="nav-link" target="_blank">한국어</a></li>
@@ -694,7 +694,7 @@
 <h3 id="本地渲染"><a href="#本地渲染" class="headerlink" title="本地渲染"></a>本地渲染</h3><p>ReactNative 能使你用相同的组件模型编写有本地渲染能力的 APP（IOS 和 Android）。能同时跨多平台开发，对开发者是非常棒的。相应地，Vue 和 <a href="https://alibaba.github.io/weex/" target="_blank" rel="external">Weex</a> 会进行官方合作，Weex 是阿里的跨平台用户界面开发框架，Weex 的 JavaScript 框架运行时用的就是 Vue。这意味着在 Weex 的帮助下，你使用 Vue 语法开发的组件不仅仅可以运行在浏览器端，还能被用于开发 IOS 和 Android 上的原生应用。</p>
 <p>在现在，Weex 还在积极发展，成熟度也不能和 ReactNative 相抗衡。但是，Weex 的发展是由世界上最大的电子商务企业的需求在驱动，Vue 团队也会和 Weex 团队积极合作确保为开发者带来良好的开发体验。</p>
 <h3 id="MobX"><a href="#MobX" class="headerlink" title="MobX"></a>MobX</h3><p>Mobx 在 React 社区很流行，实际上在 Vue 也采用了几乎相同的反应系统。在有限程度上，React + Mobx 也可以被认为是更繁琐的 Vue，所以如果你习惯组合使用它们，那么选择 Vue 会更合理。</p>
-<h2 id="Angular-1"><a href="#Angular-1" class="headerlink" title="Angular 1"></a>Angular 1</h2><p>Vue 的一些语法和 Angular 的很相似（例如 <code>v-if</code> vs <code>ng-if</code>）。因为 Angular 是 Vue 早期开发的灵感来源。然而，Augular 中存在的许多问题，在 Vue 中已经得到解决。</p>
+<h2 id="Angular-1"><a href="#Angular-1" class="headerlink" title="Angular 1"></a>Angular 1</h2><p>Vue 的一些语法和 Angular 的很相似（例如 <code>v-if</code> vs <code>ng-if</code>）。因为 Angular 是 Vue 早期开发的灵感来源。然而，Angular 中存在的许多问题，在 Vue 中已经得到解决。</p>
 <h3 id="复杂性"><a href="#复杂性" class="headerlink" title="复杂性"></a>复杂性</h3><p>在 API 与设计两方面上 Vue.js 都比 Angular 1 简单得多，因此你可以快速地掌握它的全部特性并投入开发。</p>
 <h3 id="灵活性和模块化"><a href="#灵活性和模块化" class="headerlink" title="灵活性和模块化"></a>灵活性和模块化</h3><p>Vue.js 是一个更加灵活开放的解决方案。它允许你以希望的方式组织应用程序，而不是在任何时候都必须遵循 Angular 1 制定的规则，这让 Vue 能适用于各种项目。我们知道把决定权交给你是非常必要的。<br>这也就是为什么我们提供 <a href="https://github.com/vuejs-templates/webpack" target="_blank" rel="external">Webpack template</a>，让你可以用几分钟，去选择是否启用高级特性，比如热模块加载、linting、CSS 提取等等。</p>
 <h3 id="数据绑定"><a href="#数据绑定" class="headerlink" title="数据绑定"></a>数据绑定</h3><p>Angular 1 使用双向绑定，Vue 在不同组件间强制使用单向数据流。这使应用中的数据流更加清晰易懂。</p>
@@ -703,7 +703,7 @@
 <p>在 Angular 1 中，当 watcher 越来越多时会变得越来越慢，因为作用域内的每一次变化，所有 watcher 都要重新计算。并且，如果一些 watcher 触发另一个更新，脏检查循环（digest cycle）可能要运行多次。Angular 用户常常要使用深奥的技术，以解决脏检查循环的问题。有时没有简单的办法来优化有大量 watcher 的作用域。</p>
 <p>Vue 则根本没有这个问题，因为它使用基于依赖追踪的观察系统并且异步队列更新，所有的数据变化都是独立触发，除非它们之间有明确的依赖关系。</p>
 <p>有意思的是，Angular 2 和 Vue 用相似的设计解决了一些 Angular 1 中存在的问题。</p>
-<h2 id="Angular-2"><a href="#Angular-2" class="headerlink" title="Angular 2"></a>Angular 2</h2><p>我们单独将 Augluar 2 作分类，因为它完全是一个全新的框架。例如：它具有优秀的组件系统，并且许多实现已经完全重写，API 也完全改变了。</p>
+<h2 id="Angular-2"><a href="#Angular-2" class="headerlink" title="Angular 2"></a>Angular 2</h2><p>我们单独将 Angular 2 作分类，因为它完全是一个全新的框架。例如：它具有优秀的组件系统，并且许多实现已经完全重写，API 也完全改变了。</p>
 <h3 id="TypeScript"><a href="#TypeScript" class="headerlink" title="TypeScript"></a>TypeScript</h3><p>Angular 1 面向的是较小的应用程序，Angular 2 已转移焦点，面向的是大型企业应用。在这一点上 TypeScript 经常会被引用，它对那些喜欢用 Java 或者 C# 等类型安全的语言的人是非常有用的。</p>
 <p>Vue 也十分适合制作<a href="https://github.com/vuejs/awesome-vue#enterprise-usage" target="_blank" rel="external">企业应用</a>，你也可以通过使用<a href="https://github.com/vuejs/vue/tree/dev/types" target="_blank" rel="external">官方类型</a>或<a href="https://github.com/itsFrank/vue-typescript" target="_blank" rel="external">官方装饰器</a>来支持 TypeScript，这完全可由你的方案来定。</p>
 <h3 id="大小和性能"><a href="#大小和性能" class="headerlink" title="大小和性能"></a>大小和性能</h3><p>在性能方面，这两个框架都非常的快。但目前尚没有足够的数据用例来具体展示。如果你一定要量化这些数据，你可以查看<a href="http://stefankrause.net/js-frameworks-benchmark4/webdriver-ts/table.html" target="_blank" rel="external">第三方参照</a>，它表明 Vue 2 相比 Angular2 是更快的。</p>
